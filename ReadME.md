@@ -1,5 +1,9 @@
 # 📧 SMS Spam Classifier
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://spam-classification-model.streamlit.app/)
+
+> **[🚀 Click here to try the Live Demo](https://spam-classification-model.streamlit.app/)**
+ 
 A machine learning project that detects spam text messages with **98.3% accuracy**. 
 It uses a **Naive Bayes** classifier trained on the SMS Spam Collection dataset.
 
