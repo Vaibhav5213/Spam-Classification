@@ -14,6 +14,25 @@ It uses a **Naive Bayes** classifier trained on the SMS Spam Collection dataset 
 * **Data Cleaning:** Automated pipeline to clean and preprocess raw SMS data.
 * **CLI Tool:** A command-line interface for quick local testing.
 
+## How to Run the API Locally (FastAPI)
+
+This project provides a production-ready FastAPI wrapper so the trained model can be accessed via HTTP requests.
+
+1. Navigate to the source directory:
+   ```bash
+   cd src
+   ```
+
+2. Start the FastAPI server:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+3. Once the server is running, open your browser and visit:
+   `http://127.0.0.1:8000/docs`
+
+You can now interact with and test the API endpoints using the Swagger UI.
+
 ## 📂 Project Structure
 ```text
 spam_classifier_project/
